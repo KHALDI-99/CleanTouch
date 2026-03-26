@@ -304,9 +304,9 @@ export default function App() {
       <header className="header">
         <div className="container header-inner">
           <button className="brand" onClick={() => scrollToId("accueil")}>
-            <div className="brand-mark">
-              <span>✦</span>
-            </div>
+            <div className="brand-mark brand-mark-image">
+  <img src="clean-touch-apple-touch-icon.png" alt="Clean Touch" />
+</div>
             <div className="brand-text">
               <p className="brand-title">Clean Touch</p>
               <p className="brand-subtitle">Nettoyage professionnel</p>
@@ -416,12 +416,8 @@ export default function App() {
             >
               <div className="hero-visual glass-card">
                 <div className="hero-visual-inner">
-                  <div className="logo-showcase">
-                    <div className="logo-drop">
-                      <div className="logo-ring ring-one" />
-                      <div className="logo-ring ring-two" />
-                      <div className="logo-drip" />
-                    </div>
+                  <div className="logo-showcase logo-showcase-image">
+                  <img src="clean-touch-apple-touch-icon.png" alt="Logo Clean Touch" className="hero-logo-image" />
                   </div>
 
                   <div className="hero-visual-copy">
