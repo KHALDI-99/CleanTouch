@@ -305,7 +305,7 @@ export default function App() {
         <div className="container header-inner">
           <button className="brand" onClick={() => scrollToId("accueil")}>
             <div className="brand-mark brand-mark-image">
-  <img src="clean-touch-apple-touch-icon.png" alt="Clean Touch" />
+  <img src="logocleantouch.png" alt="Clean Touch" />
 </div>
             <div className="brand-text">
               <p className="brand-title">Clean Touch</p>
