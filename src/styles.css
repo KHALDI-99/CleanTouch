@@ -39,6 +39,33 @@ body {
     linear-gradient(180deg, #faf5ee 0%, #f6f0e7 42%, #f9f4ed 100%);
 }
 
+.brand-mark-image {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: auto;
+  height: auto;
+}
+
+.brand-mark-image img {
+  width: 48px;
+  height: auto;
+  display: block;
+}
+
+.logo-showcase-image {
+  background: radial-gradient(circle at top, rgba(240,225,162,0.45), rgba(255,255,255,0.64) 62%);
+  padding: 2rem;
+}
+
+.hero-logo-image {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 button,
 input,
 select,
